@@ -1,5 +1,6 @@
 The article is being published in collaboration with JLCPCB. They supply high quality PCBs at a very reasonable price.
 They also can provide SMT circuit assembly.
+
 We thanks to our sponsor JLCPCB  https://jlcpcb.com/RTA for sponsoring us PCBs for this project circuit.
 
 
@@ -13,6 +14,7 @@ Get SMT Coupons - https://jlcpcb.com/RTA
 The project is about, making a on-off circuit using only single push button switch. Using this SMT project circuit, you can control any 12v device easily. This project circuit helps you to on-off any circuit using only one push switch. 
 
 This circuit can be operated only DC-12v power supply circuit. 
+
 If you don’t have DC-12v SMPS circuit, you also can use 12v battery.
 
 
@@ -56,6 +58,7 @@ The LEDs blink in sequence from the first to last and then starts from the first
 	
   
 Its 16 legs Pin Out can be seen above - 
+
 1.	Pin-1: When the counter reads 5 counts then this pin 1 will become high which is output number 5.
 2.	Pin-2: When the counter reads 1 count then this pin 2 will become high which is output number 1.
 3.	Pin-3: When the counter reads 0 counts then this pin 3 will become high which is the output number 0.
@@ -74,84 +77,115 @@ Its 16 legs Pin Out can be seen above -
 16.	The voltage is supplied to this IC CD4017 through Pin number 16. The voltage range for this IC 3V to 15V for the IC to function.
 
 
+Feature - 
 
-
-
-Feature
 •	High speed 16 pin CMOS Decade counter
+
 •	Supports 10 decoded outputs
+
 •	Wide supply voltage range from 3V to 15V, typically +5V
+
 •	TTL compatible
+
 •	Maximum Clock Frequency: 5.5Mhz
+
 •	Available in 16-pin PDIP, GDIP, PDSO packages
+
 •	The supply voltage of this IC is 3V to 15V.
+
 •	It is compatible with TTL (Transistor -Transistor Logic).
+
 •	The clock speed or operational speed of CD4017 IC is 5 MHz.
+
 •	Output current is 19mA.
+
 •	Power is about 10uW.
+
 •	The IC has high noise immunity.
 
 
 
+Application - 
 
-Application
 •	Any counter circuit.
+
 •	Decoders.
+
 •	Binary Encounters.
+
 •	For frequency division projects.
+
 •	LED Flashing Light.
+
 •	Digital dice circuit.
+
 •	Remote control switches circuit.
+
 •	LED chaser circuit.
+
 •	Clap on-off switch, etc.
+
 •	Divisible counting by N
+
 •	Industrial and medical electronics
+
 •	LED matrix circuits
+
 •	LED chaser applications and LED based projects
 
 
 
-
-Schematics and PCB Design
-The schematics of PCBs can be seen above.
-
-
-
-
-
 Circuit Connection – Step 1
-To make this circuit, 1st we need to connect IC 8th no leg with 13th no leg and connect 10th no leg with 15th no leg. Now we connect diode with CD-4017 IC. We connect diode positive leg with 2, 4 and 7 no leg of IC.
-Then we connect 2.2k, 4.7k and 100 Ω resistor with diode. We connect 2.2k resistor with diode negative leg that is connected with IC 2no leg. Then connect 4.7k and 100 Ω resistor with diode negative leg that is connected with 4 and 7 no leg of IC.
+
+To make this circuit, 1st we need to connect IC 8th no leg with 13th no leg and connect 10th no leg with 15th no leg.
+
+Now we connect diode with CD-4017 IC. We connect diode positive leg with 2, 4 and 7 no leg of IC.
+Then we connect 2.2k, 4.7k and 100 Ω resistor with diode.
+We connect 2.2k resistor with diode negative leg that is connected with IC 2no leg. 
+Then connect 4.7k and 100 Ω resistor with diode negative leg that is connected with 4 and 7 no leg of IC.
+
 
 Circuit Connection – Step 2
-Now, we connect all resistors together and connect that resistor with Base leg 13003 transistor. Connect transistor “Emitter” leg with 8 no leg of IC. 
 
-Connect 100K resistor with 13 and 14 no leg of IC. We need to connect capacitor with the circuit. Connect capacitor negative leg with 14 no leg IC and connect capacitor positive leg with 16 no leg of IC.
+Now, we connect all resistors together and connect that resistor with Base leg 13003 transistor. 
+
+Connect transistor “Emitter” leg with 8 no leg of IC. 
+
+Connect 100K resistor with 13 and 14 no leg of IC. We need to connect capacitor with the circuit. 
+Connect capacitor negative leg with 14 no leg IC and connect capacitor positive leg with 16 no leg of IC.
 
 To control circuit, we connect push switch. Connect push switch one terminal with 14 no leg of IC. 
 
 
+Circuit Connection – Step 3 
 
+We are using 3v LED light. Then we make a series connection in these 4 pieces LED light.
 
-
-Circuit Connection – Step 3
-We are using 3v LED light. Then we make a series connection in these 4 pieces LED light. Now connect LED light positive leg with push switch and connect LED negative leg with “Collector” leg of 13003 transistors.
+Now connect LED light positive leg with push switch and connect LED negative leg with “Collector” leg of 13003 transistors.
 	
 It is the time to connect DC-12v power supply with the circuit. Connect DC positive voltage with 16 no leg of IC and connect DC negative leg with 13 no leg of IC.
 
 Our circuit is completely ready for use now. Just plug-in power and enjoy the circuit. 
 
-Steps to Order PCBs from JLCPCB
+Steps to Order PCBs from JLCPCB - 
 
 If you complete design of your PCBs, then it is time to order PCBs. To order best quality PCBs, just visit JLCPCB and click on the “QUOTE NOW” button.
+
 Since 2006 JLCPCB continuously driven to become more efficient and to reduce costs. They promise to offer customers the most economic PCBs forever. JLCPCB makes cheapest but top quality PCBs possibly because of scale effect, extremely high production efficiency and less manpower cost.
+
 You can order minimum 5 pieces PCBs for only $2 costs.
+
 To order PCBs, make your Gerber file. Then drag and drop the Gerber file on the following box.
+
 Click on “Gerber Viewer” button you can check the PCBs design. Make sure everything is good, then choose color, quantity and order your PCBs at very reasonable prices.
+
 If you are a new user, then you can order 10 pieces PCBs, costing only $2. To place your order click on “Save to Cart”  button. Confirm your shipping address and shipping method.
 
-Steps to Order SMT PCBs From JLCPCB
-To order your SMT PCBs, visit JLCPCB.
+
+Steps to Order SMT PCBs From JLCPCB - 
+
+To order your SMT PCBs, visit JLCPCB (https://jlcpcb.com/RTA)
+
 1.	 Drag and drop SMT PCBs file on site.
 2.	 Choose your PCBs color and quantity.
 3.	 To free SMT assembly for your PCB click on “SMT Assembly” button and then confirm.
@@ -160,10 +194,13 @@ To order your SMT PCBs, visit JLCPCB.
 6.	 Confirm your shipping address and shipping method.
 7.	 Pay your payment
 8.	 Wait for confirmation mail.
-9.	 For SMT Service, Click here.
- Shipping and Billing
+9.	 For SMT Service, Click here (https://cart.jlcpcb.com/quote)
+ 
+ 
+ Shipping and Billing - 
 	
 JLCPCB supported all shipping method can be seen below.
+
 Estimated Delivery Time
 
 
@@ -177,6 +214,7 @@ Estimated Delivery Time
 •	ePacket 15-25 business days
 •	Registered Air Mail 15-20 business days
 
+
 JLCPCB supported Payment method.
 •	PayPal
 •	Credit/Debit Care
@@ -185,8 +223,10 @@ JLCPCB supported Payment method.
 
 
 
-Confirm PCBs Order
+Confirm PCBs Order - 
 
-To confirm your order, pay your payment. Then accept PayPal, Credit/Debit Card, and Prepaid Wire Transfer. To manufacture your PCBs, it’ll take about 2 days. DHL will be fastest shipping method to arrive your ordered PCBs at your location.
+To confirm your order, pay your payment. Then accept PayPal, Credit/Debit Card, and Prepaid Wire Transfer. 
+To manufacture your PCBs, it’ll take about 2 days. DHL will be fastest shipping method to arrive your ordered PCBs at your location.
+
 All PCBs were well packed and quality was really good.
 Thanks to JLCPCB for best quality PCBs.
